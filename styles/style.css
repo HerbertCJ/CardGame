@@ -1,0 +1,87 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background: url('/imgs/background.jpg');    
+    background-size: cover;    
+    width: 90%;
+    height: 92vh;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+header {    
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.game {   
+    text-align: center;
+    margin: auto;    
+}
+
+
+#btn {
+    font-size: 1em;
+    padding: 7px;
+    width: 200px;
+    background-color: rgba(0, 255, 255, 0.411);
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#btn:hover {
+    background-color: aqua;
+    font-weight: bold;
+}
+
+#reset {
+    font-size: 1em;
+    padding: 7px;
+    width: 20%;
+    background-color: rgba(0, 255, 255, 0.411);
+    cursor: pointer;
+    margin: 30px auto;
+}
+
+#iname {
+    padding: 8px;
+    width: 220px;
+    margin-bottom: 20px;  
+}
+
+#error {
+    color: red;
+    margin-top: 15px;
+    font-size: 1.8em;
+}
+
+.cards {
+    width: 125px;
+    height: 150px;
+    margin: 0 10px;
+}
+
+#cardsOnBoard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;       
+}
+
+.placar {
+    font-size: 1.5em;
+    font-weight: 600;    
+}
+
+.roundwon {
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.playerNames {
+    font-size: 1em;
+    font-weight: 500;
+}
