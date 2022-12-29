@@ -3,7 +3,7 @@
 }
 
 .container {
-    background: url('/imgs/background.jpg');    
+    background: url('../imgs/background.jpg');    
     background-size: cover;    
     width: 90%;
     height: 92vh;
