@@ -42,8 +42,7 @@ function sortCard() {
 
 function playGame() {
     let card1 = p1[sortCard()]
-    let card2 = p2[sortCard()]
-    https://github.com/HerbertCJ/CardGame/blob/main/imgs/9D.svg
+    let card2 = p2[sortCard()]    
     cardsOnBoard.innerHTML = `<div class="playerNames">${iname.value}</div>
         <img src="https://raw.githubusercontent.com/HerbertCJ/CardGame/main/imgs/${card1}.svg" class="cards" />     
         <img src="https://raw.githubusercontent.com/HerbertCJ/CardGame/main/imgs/${card2}.svg" class="cards" />
