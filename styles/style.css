@@ -3,7 +3,7 @@
 }
 
 .container {
-    background: url('https://raw.githubusercontent.com/HerbertCJ/CardGame/main/imgs/background.jpg');    
+    background-image: url('../imgs/background.jpg');
     background-size: cover;    
     width: 90%;
     height: 92vh;

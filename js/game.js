@@ -44,8 +44,8 @@ function playGame() {
     let card1 = p1[sortCard()]
     let card2 = p2[sortCard()]    
     cardsOnBoard.innerHTML = `<div class="playerNames">${iname.value}</div>
-        <img src="https://raw.githubusercontent.com/HerbertCJ/CardGame/main/imgs/${card1}.svg" class="cards" />     
-        <img src="https://raw.githubusercontent.com/HerbertCJ/CardGame/main/imgs/${card2}.svg" class="cards" />
+        <img src="imgs/${card1}.svg" class="cards" />     
+        <img src="imgs/${card2}.svg" class="cards" />
         <div class="playerNames">Robot</div>`
 
     if (Number(card1.slice(0, card1.length - 1)) === Number(card2.slice(0, card2.length - 1))) {
